@@ -1,0 +1,7 @@
+{
+  "name": "preparatuchef",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

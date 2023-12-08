@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
@@ -8,6 +8,7 @@ import { HomePageRoutingModule } from './home-routing.module';
 
 import { HomePage } from './home.page';
 import { SharedComponentsModule } from 'src/app/components/shared-components.module';
+import "@lottiefiles/lottie-player";
 
 @NgModule({
   imports: [
@@ -17,6 +18,7 @@ import { SharedComponentsModule } from 'src/app/components/shared-components.mod
     HomePageRoutingModule,
     SharedComponentsModule
   ],
-  declarations: [HomePage]
+  declarations: [HomePage],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class HomePageModule {}

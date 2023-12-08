@@ -1,9 +1,14 @@
-ion-thumbnail {
+.potato-logo{
     margin-left: 2%;
-    margin-right: 10%;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
+    margin-top: 0,5%;
+    margin-bottom: 0,5%;
     
+}
+.name-logo{
+    margin-top: 6px;
+    margin-right: 5%;
+    width: auto;
+    min-height: auto;
 }
 ion-button {
     margin-left: 3%;
@@ -12,6 +17,4 @@ ion-icon {
     margin: 1%;
     
 }
-ion-toolbar {
-    flex: auto;
-}
+

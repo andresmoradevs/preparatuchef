@@ -1,0 +1,15 @@
+ion-footer {
+    background-image: url('../../../assets/banner-footer.png');
+    display:-webkit-inline-flex;
+}
+
+ion-row {
+    width: 70%;
+    
+}
+ion-list {
+    place-content: center;
+}
+ion-title {
+    --color:gray;
+}

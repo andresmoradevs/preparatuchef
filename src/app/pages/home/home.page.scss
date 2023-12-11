@@ -7,3 +7,29 @@ div {
         margin-left: 50%;
     }
 }
+ion-row {
+    margin-top: 5%;
+    width: 80%;
+}
+ion-card {
+    text-align: -webkit-center;
+    clip-path: border-box;
+}
+ion-content {
+    text-align: -webkit-center;
+}
+.our-products {
+    align-self: center;
+}
+.title-second {
+    place-content: center;
+}
+.second-panel-images {
+    margin: 2%;
+}
+.row-button-plans {
+    place-content:center;
+}
+.btn-plans {
+    --background:#F9A825;
+}

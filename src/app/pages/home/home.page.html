@@ -3,8 +3,115 @@
 <ion-content [fullscreen]="true">
  
   <div class="image-landing">
-    <ion-text>Libérate del estrés, ¡cocinar puede ser divertido!</ion-text>  
+    <!-- <ion-text>Libérate del estrés, ¡cocinar puede ser divertido!</ion-text>   -->
     <img src="assets/landing.png">
   </div>
+ <ion-row>
+  <ion-col>
+    <ion-card>
+
+      <lottie-player
+        autoplay
+        loop
+        speed='0.5'
+        src='assets/firts-card.json'
+        style='width: 180px; margin: 10px;'>
+      </lottie-player>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, eveniet!!</p>
+    </ion-card>
+  </ion-col>
+  <ion-col>
+    <ion-card>
+      <lottie-player
+      autoplay
+      loop
+      speed='0.5'
+      src='assets/two-card.json'
+      style='width: 180px; margin: 10px;'>
+    </lottie-player>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, hic.</p>
+    </ion-card>
+  </ion-col>
+  <ion-col>
+    <ion-card>
+      <lottie-player
+      autoplay
+      loop
+      speed='0.5'
+      src='assets/three-card.json'
+      style='width: 180px; margin: 10px;'>
+    </lottie-player>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, hic. Ducimus voluptatum!</p>
+    </ion-card>
+  </ion-col>
+  <ion-col>
+    <ion-card>
+      <lottie-player
+        autoplay
+        loop
+        speed='0.5'
+        src='assets/four-card.json'
+        style='width: 180px; margin: 10px;'>
+      </lottie-player>
+      <p>Ducimus voluptatum repellendus exercitationem maxime aliquid optio nisi, quisquam esse molestiae recusandae eos.</p>
+    </ion-card>
+  </ion-col>
+ </ion-row>
+
+ <ion-row>
+
+  <ion-col>
+    <ion-card>
+      <img src="https://img.freepik.com/foto-gratis/vista-superior-ingredientes-verduras-ensalada_23-2148585648.jpg?w=2000&t=st=1701996628~exp=1701997228~hmac=376707fc542a03465091a700b6ed7a009dd88dba7e81d966b7b405bb96189975" alt="">
+    </ion-card>
+  </ion-col>
+
+  <ion-col class="our-products">
+    <ion-card>
+
+      <ion-card-header>
+        <ion-card-title>Nuestros Productos</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+
+        <ion-item><ion-text>✓ Facil de preparar, no necesitas un chef, incluye un paso a paso.</ion-text></ion-item>
+        <ion-item><ion-text>✓ Ingredientes premium y 100% productos colombianos.</ion-text> </ion-item>
+        <ion-item><ion-text>✓ El 90% de nuestras recetas se pueden preparar en menos de 25 min.</ion-text></ion-item>
+        <ion-item><ion-text>✓ No hay restos de alimentos o desperdicio de estos mismos.</ion-text></ion-item>
+        <!-- <ion-item><ion-text>✓ Proveedores totalmente locales </ion-text></ion-item> -->
+        
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+ </ion-row>
+ <ion-row class="title-second">
+  <ion-card>
+    <ion-card-header> <ion-card-title>Cocina sin estrés, ¡disfruta cada bocado!</ion-card-title> </ion-card-header>
+    <ion-card-content> <ion-text>Cada receta está diseñada cuidadosamente para proporcionar una experiencia gastronómica deliciosa y nutritiva.</ion-text> </ion-card-content>
+  </ion-card>
+ </ion-row>
+
+ <ion-row>
+  <ion-col> 
+    <img src="https://img.freepik.com/foto-gratis/plano-delicioso-plato-berenjena_23-2150410407.jpg?w=2000&t=st=1701997036~exp=1701997636~hmac=e7723ee780fabd465e8b3139b74e2895d8a0c8fbe343c2118daee1e51a229389" alt="">
+  </ion-col>
+  <ion-col>
+    <img src="https://img.freepik.com/foto-gratis/filete-pollo-cubierto-sesamo-blanco-guisantes-tomates-brocoli-calabaza-plato-blanco_1150-24771.jpg?t=st=1701996619~exp=1701997219~hmac=2da43e52dc936d407b4ded6c5cb223f03573df1ed3649b708100b1a79005546c" alt="">
+  </ion-col>
+  <ion-col>
+    <img src="https://img.freepik.com/foto-gratis/delicioso-arreglo-comida-trucha_23-2150353360.jpg?w=2000&t=st=1701997674~exp=1701998274~hmac=e870d692ac2ea89579eea7c259be842d1543d085f4daa528bf42f910a3b224de" alt="">
+  </ion-col>
+  <ion-col>
+    <img src="https://img.freepik.com/foto-gratis/filete-pollo-limon-tomate-chile-zanahoria-plato-blanco_1150-25887.jpg?w=2000&t=st=1701997967~exp=1701998567~hmac=676ba55d6273920b48e7b6848783e1b68492f6b5efbbb57b50a11cac992ab40f" alt="">
+  </ion-col>
+
+ </ion-row>
+ <ion-row class="row-button-plans">
+  <ion-button class="btn-plans" (click)="plans()">Ver Planes</ion-button>
+ </ion-row>
+ <br>
+ <br>
+ <app-footer></app-footer>
   
 </ion-content>

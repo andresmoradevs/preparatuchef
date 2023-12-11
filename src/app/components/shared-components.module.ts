@@ -7,6 +7,7 @@ import { AboutPage } from "../pages/about/about.page";
 import { PlansPage } from "../pages/plans/plans.page";
 import { GiftPage } from "../pages/gift/gift.page";
 import { EcoPage } from "../pages/eco/eco.page";
+import { FooterComponent } from "./footer/footer.component";
 
 const routes: Routes = [
    
@@ -29,12 +30,12 @@ const routes: Routes = [
 ]
 
 @NgModule({
-    declarations: [HeaderComponent],
+    declarations: [HeaderComponent, FooterComponent],
     imports: [
         CommonModule, 
         IonicModule,
         RouterModule.forChild(routes)
     ],
-    exports: [HeaderComponent],
+    exports: [HeaderComponent, FooterComponent],
 })
 export class SharedComponentsModule { }
